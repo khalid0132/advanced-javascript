@@ -26,11 +26,10 @@ function square(element) {
 
 // used arrow function below in MAP // output will show an array
 const numbers = [2, 4, 6, 8, 10];
-const result = numbers.map((numbers) => numbers * numbers);
+const result = numbers.map((numbers) => numbers + numbers);
 console.log(result);
 
-
-//filter and find almost same.. 
+//filter and find almost same..
 // used arrow function below for FILTER // filter's output will show an array
 const element = [2, 4, 6, 8, 10];
 const bigger = element.filter((x) => x > 5);
