@@ -23,19 +23,24 @@ function square(element) {
 //   return numbers * numbers;
 // });
 // console.log(result);
+const value = [2,4,6,8,10];
+const res = value.map(n=>n+n);
+console.log('res: ', res)
 
-// used arrow function below in MAP // output will show an array
+
+
+// // used arrow function below in MAP // output will show an array
 const numbers = [2, 4, 6, 8, 10];
-const result = numbers.map((numbers) => numbers + numbers);
+const result = numbers.map((num) => num + num);
 console.log(result);
 
-//filter and find almost same..
-// used arrow function below for FILTER // filter's output will show an array
+// //filter and find almost same..
+// // used arrow function below for FILTER // filter's output will show an array
 const element = [2, 4, 6, 8, 10];
 const bigger = element.filter((x) => x > 5);
 console.log(bigger);
 
-// used arrow function below for FIND // output will show immidiate value but not array
+// // used arrow function below for FIND // output will show immidiate value but not array
 const value = [2, 5, 6, 8, 9, 13];
 const output = value.find((value) => value < 5);
 console.log(output);

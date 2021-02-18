@@ -2,11 +2,11 @@
 // let student;
 // console.log(student);
 
-function add(num1, num2) {
+function add(num1= 10, num2=10) {
   console.log(num1 + num2);
   //   return num1 * num2;            if we don't declare return then it will show undefined
 }
-const result = add(15, 25);
+const result = add(25);
 console.log(result);
 
 // undefined in object

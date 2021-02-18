@@ -10,7 +10,7 @@ if (age) {
 
 // const name = "khan";
 // const name1 = ""; // empty string hole false but empty string but white space hale abar kintu true
-const name1 = " "; // empty string hole false but empty string but white space hale abar kintu true
+const name1 = "  "; // empty string hole false but empty string but white space hale abar kintu true
 if (name1) {
   console.log("true");
 } else {

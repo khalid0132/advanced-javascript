@@ -13,5 +13,11 @@ console.log(numbers1); // splice er jonno main arrayr value removed
 
 // array join elements
 const numbers3 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-const together = numbers3.join(", ");
+const together = numbers3.join(": ");
 console.log(together);
+
+//again kora kichu
+const num = [1,3,4,17,6,5];
+const show = num.splice(2,2,9, 99); // object 1 theke next 2 element show korbe
+console.log(show);
+console.log(num)
